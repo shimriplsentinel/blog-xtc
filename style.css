@@ -186,12 +186,14 @@
         font-size: 24px;
         text-align: center;
         padding: 0 10px;
+        color: white;
     }
     
     .titulo h2 {
         font-size: 18px;
         text-align: center;
         padding: 0 10px;
+        color: white;
     }
 }
 
@@ -249,10 +251,12 @@
     
     .titulo h1 {
         font-size: 20px;
+        color: white;
     }
     
     .titulo h2 {
         font-size: 16px;
+        color: white;
     }
 }
 
@@ -301,9 +305,11 @@
     
     .titulo h1 {
         font-size: 18px;
+        color: white;
     }
     
     .titulo h2 {
         font-size: 14px;
+        color: white;
     }
 }
