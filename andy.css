@@ -1,0 +1,11 @@
+    .conteiner{
+        display: flex;
+        flex-direction: row;
+        min-height: 100vh;
+        background-color: black;
+        gap: 15px;
+    }
+
+    .img{
+        width: 610px;
+    }
