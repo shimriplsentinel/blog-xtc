@@ -30,6 +30,7 @@
         height: 25%;
         width: 100%;
         padding-bottom: 20px;
+        padding-top: 15px;
     }
 
     .membro-nome{
@@ -74,6 +75,10 @@
         padding-left: 20px;
     }
 
+    .font{
+        color: white;
+    }
+
     .albuns{
         display: flex;
         flex-direction: row;
@@ -106,3 +111,199 @@
         font-style: oblique;
         text-decoration: none;
     }
+
+@media (max-width: 768px) {
+    
+    .local-logo {
+        padding-bottom: 15px;
+        padding-top: 5px;
+    }
+    
+    .logo {
+        width: 70%;
+        max-width: 300px;
+    }
+    
+    .membros {
+        gap: 15px;
+        padding-bottom: 15px;
+    }
+    
+    .membro-nome {
+        flex: 0 0 130px; 
+    }
+    
+    .img-membro {
+        max-width: 130px;
+        max-height: 170px;
+        min-width: 130px;
+        min-height: 170px;
+    }
+    
+    .área-descrição-álbuns {
+        flex-direction: column;
+        height: auto;
+        padding-top: 10px;
+        gap: 20px;
+    }
+    
+    .descrição {
+        width: 90%;
+        height: auto;
+        padding-left: 0;
+        padding: 0 15px;
+        text-align: justify;
+    }
+    
+    .descrição p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    
+    .albuns {
+        width: 95%;
+        gap: 15px;
+        padding-bottom: 20px;
+    }
+    
+    .album {
+        flex: 0 0 150px;
+        min-height: 150px;
+        max-height: 150px;
+        min-width: 150px;
+        max-width: 150px;
+    }
+    
+    .album-titulo {
+        flex: 0 0 calc(50% - 15px); 
+    }
+    
+    .nome-link {
+        font-size: 12px; 
+    }
+    
+    .titulo h1 {
+        font-size: 24px;
+        text-align: center;
+        padding: 0 10px;
+    }
+    
+    .titulo h2 {
+        font-size: 18px;
+        text-align: center;
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    
+    .logo {
+        width: 80%;
+        max-width: 220px;
+    }
+    
+    .membros {
+        gap: 10px;
+    }
+    
+    .membro-nome {
+        flex: 0 0 100px;
+    }
+    
+    .img-membro {
+        max-width: 100px;
+        max-height: 130px;
+        min-width: 100px;
+        min-height: 130px;
+    }
+    
+    .descrição {
+        width: 95%;
+        padding: 0 8px;
+    }
+    
+    .descrição p {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+    
+    .album {
+        flex: 0 0 130px;
+        min-height: 130px;
+        max-height: 130px;
+        min-width: 130px;
+        max-width: 130px;
+    }
+    
+    .album-titulo {
+        flex: 0 0 calc(50% - 10px); 
+    }
+    
+    .nome-link {
+        font-size: 10px;
+    }
+    
+    .albuns {
+        gap: 10px;
+    }
+    
+    .titulo h1 {
+        font-size: 20px;
+    }
+    
+    .titulo h2 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 360px) {
+    
+    .logo {
+        width: 85%;
+        max-width: 180px;
+    }
+    
+    .membros {
+        gap: 8px;
+    }
+    
+    .membro-nome {
+        flex: 0 0 80px;
+    }
+    
+    .img-membro {
+        max-width: 80px;
+        max-height: 110px;
+        min-width: 80px;
+        min-height: 110px;
+    }
+    
+    .descrição p {
+        font-size: 11px;
+        line-height: 1.3;
+    }
+    
+    .album {
+        flex: 0 0 110px;
+        min-height: 110px;
+        max-height: 110px;
+        min-width: 110px;
+        max-width: 110px;
+    }
+    
+    .album-titulo {
+        flex: 0 0 100%;
+    }
+    
+    .nome-link {
+        font-size: 9px;
+    }
+    
+    .titulo h1 {
+        font-size: 18px;
+    }
+    
+    .titulo h2 {
+        font-size: 14px;
+    }
+}

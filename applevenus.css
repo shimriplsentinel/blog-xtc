@@ -14,6 +14,10 @@
         height: 20%;
     }
 
+    .font{
+        color: white;
+    }
+
     .area-capa-resenha{
         display: flex;
         align-items: center;
@@ -49,3 +53,110 @@
         min-width: 250px;
         max-width: 250px;
     }
+
+@media (max-width: 768px) {
+    .conteiner {
+        padding: 10px;
+    }
+    
+    .area-titulo h1, 
+    .area-titulo h2 {
+        font-size: 1.5rem;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .area-capa-resenha {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+        gap: 20px;
+    }
+    
+    .area-capas {
+        width: 80%;
+        height: auto;
+    }
+    
+    .img {
+        width: 100%;
+        height: auto;
+        max-width: 250px;
+        min-width: unset;
+        min-height: unset;
+    }
+    
+    .area-resenha {
+        width: 90%;
+        height: auto;
+        padding: 15px;
+    }
+    
+    .area-resenha p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+
+    .font {
+        font-size: 1rem;
+        line-height: 1.5;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .conteiner {
+        padding: 5px;
+    }
+    
+    .area-titulo h1, 
+    .area-titulo h2 {
+        font-size: 1.3rem;
+    }
+    
+    .area-capa-resenha {
+        padding: 10px;
+        gap: 15px;
+    }
+    
+    .area-capas {
+        width: 95%;
+    }
+    
+    .img {
+        max-width: 180px;
+    }
+    
+    .area-resenha p {
+        font-size: 0.85rem;
+        line-height: 1.5;
+    }
+
+    .font {
+        font-size: 0.9rem;
+        line-height: 1.5;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 360px) {
+    .img {
+        max-width: 140px;
+    }
+    
+    .area-resenha p {
+        font-size: 0.75rem;
+        line-height: 1.4;
+    }
+    
+    .area-titulo h1, 
+    .area-titulo h2 {
+        font-size: 1.1rem;
+    }
+
+    .font {
+        font-size: 0.8rem;
+        line-height: 1.4;
+    }
+}
